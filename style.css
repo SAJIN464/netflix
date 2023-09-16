@@ -1,0 +1,131 @@
+.body{
+    font-family: 'Inter',sans-serif;
+}
+.container-{
+    height: 80vh;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.432)),url(images/bagroundimg.png);
+    display: flex;
+    flex-direction: column;
+}
+.collapse{
+    justify-content: center;
+}
+.nav-item1{
+    border: 2px solid white;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 10px;
+    padding: 0px 4px;
+    color: #fff;
+}
+.nav-item a{
+    color: white;
+    font-size: medium;
+    font-weight: 800;
+}
+.nav-item2{
+    background-color: #e50914;
+    border-radius: 8px;
+    margin: 6px;
+    padding:2px;
+    padding: 0px 4px;
+}
+.main-heading{
+    height: 400px;
+    width: 90vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.main-heading h2{
+    text-align: center;
+    color: white;
+    font-weight:600;
+}
+.main-heading p{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.main-search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-search-sub{
+    width: 300px;
+    border: 1px solid gainsboro;
+    height: 40px;
+}
+.main-btn{
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #e50914;
+    width: 150px;
+    margin-left: 5px;
+}
+.partition{ 
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.partition-heading h2{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.partition-heading p{
+    color: #fff;
+    font-size:large;
+    font-weight: 400;
+}
+.partition-img img{
+    width: 300px;
+    height: 200px;
+}
+.partition2,.partition4{
+    flex-direction: row-reverse;
+}
+.faq{
+    margin-bottom: 3px;
+    background-color:black;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.faq h1{
+    padding: 1em;
+    color: #fff;
+    font-size: x-large;
+    font-weight: 900;
+}
+.btn-secondary{
+    width:50%;
+    min-width: 300px;
+    max-width: 600px;
+}
+.main-btn2{
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 400;
+    height: 40px;
+    border: 1px solid #e50914;
+    width: 150px;
+    margin-left: 5px;
+}
+.card{
+    background-color: #434343 !important;
+    color: #fff !important;
+}
